@@ -1,0 +1,1 @@
+var date = new Date().getTime().toLocaleString

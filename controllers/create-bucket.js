@@ -3,9 +3,6 @@ import dotenv from 'dotenv';
 
 dotenv.config({path:'../.env'})
 
-
-const BUCKET_NAME = 'festorz';
-
 const s3 = new AWS.S3({
     accessKeyId:process.env.AWS_ID,
     secretAccessKey:process.env.AWS_SECRET
